@@ -8,11 +8,11 @@ private:
 	int h;
 	int m;
 public:
-	Time();
-	Time(int, int);
+	
+	Time(int h, int m);
 	~Time();
-	void set(int, int);
-	void get(int &x, int &y);
+	void set(int h, int m);
+	void get(int &h, int &m);
 	friend ostream &operator<<(ostream &, const Time &);
 	Time operator++(int);
 };
