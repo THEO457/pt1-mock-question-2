@@ -1,4 +1,4 @@
-#pragma once
+#include <isostream>
 #ifndef TIME_H
 #define TIME_H
 using namespace std;
